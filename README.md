@@ -9,3 +9,4 @@ NB Your repository must be called "yourusername.github.io" otherwise the Url it 
 My NIP-05 identifier for ben@bengweeks.github.io can be seen here:
 
 [https://bengweeks.github.io/.well-known/nostr.json?name=ben](https://bengweeks.github.io/.well-known/nostr.json?name=ben)
+

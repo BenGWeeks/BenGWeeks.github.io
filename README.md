@@ -1,6 +1,6 @@
 # NIP-05 Identifier
 
-## Introduction to NIP-05 Identifiers
+## What are NIP-05 Identifiers?
 
 NIP-05 Identifiers are an [e-mail address notation](https://datatracker.ietf.org/doc/html/rfc5322#section-3.4.1) that confirms the owner of the address also owns a specific domain or sub-domain or the owner allowed you to register there.
 
@@ -8,7 +8,7 @@ Relays can prioritize and clients can "trust" NIP-05 identified users.
 
 This trust-minimized verification system is a decentralised way of combating bad actors. If someone uses a domain to setup NIP-05 identified bots, these can be blocked by relays, and it makes it more difficult for bad actors to be NIP-05 identified as it takes time to setup domains in such a way. 
 
-## How NIP-05 Identifies work
+## How do NIP-05 Identifies work?
 
 A NIP-05 identifier, of the form `<local-part>@<domain>` is resolved submit a GET request to the following address:
 
@@ -36,7 +36,7 @@ For example, my NIP-05 identifier for ben@bengweeks.github.io can be seen here:
 
 [https://bengweeks.github.io/.well-known/nostr.json?name=ben](https://bengweeks.github.io/.well-known/nostr.json?name=ben)
 
-## Hosting your NIP-05 identifying JSON file on GitHub
+## How do you to use GitHub pages to host your NIP-05 identifier?
 
 To create a NIP-05 identifier using GitHub:
 
@@ -50,7 +50,7 @@ To create a NIP-05 identifier using GitHub:
 
 NB GitHub web page hosting is case-sensitive hence suggesting all lower case.
 
-## Setting you NIP-05 Identifier
+## How do you set your NIP-05 Identifier?
 
 Using a client such as [https://astral.ninja](https://astral.ninja), enter your NIP-05 identifier into your profile settings in the form of `ben@bengweeks.github.io`.
 

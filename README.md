@@ -14,7 +14,7 @@ A NIP-05 identifier, of the form `<local-part>@<domain>` is resolved submit a GE
 
 `https://<domain>/.well-known/nostr.json?name=<local-part>`
 
-For example, the address of `ben@bengweeks.github.io` has a respective JSON file available to a GET request available (via GitHub pages) at:
+For example, the address of `ben@bengweeks.github.io` has a respective JSON file available to a GET request (via GitHub pages) at:
 
 `https://bengweeks.gihub.io/.well-known/nostr.json?name=ben`
 
@@ -32,7 +32,7 @@ The string in the JSON file of `971615b70ad9ec896f8d5ba0f2d01652f1dfe5f9ced81ac9
 
 NB The querystring of `name=<local-part>` is there to be able to dynamically create the JSON file when used by a host for multiple users.
 
-For example, my NIP-05 identifier for ben@bengweeks.github.io can be seen here:
+The above example of the NIP-05 identifier for ben@bengweeks.github.io can be seen here:
 
 [https://bengweeks.github.io/.well-known/nostr.json?name=ben](https://bengweeks.github.io/.well-known/nostr.json?name=ben)
 

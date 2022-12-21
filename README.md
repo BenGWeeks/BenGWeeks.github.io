@@ -43,8 +43,7 @@ To create a NIP-05 identifier using GitHub:
 1. Fork this Repository (or create a new one) using GitHub, naming it `yourusername.github.io` (otherwise the Url will be `yourusername.github.io/repository_name` and not the route of your GitHub pages website).
 2. Create a file called `.well-known/nostr.json` (in lower-case) if you are creating a new repositoy rather than forking this and enter your own `"<local-part>": "<public-key>"` as described above.
 3. Go to `Settings` for the Repository, and under `Code and automation` choose `Pages`.
-4. Under `Source` > `Build and deployment`, select `GitHub Actions`.
-5. Rather than `Deploy from a branch` and select `Static HTML` (otherwise you will find the JSON file does not get published).
+4. Under `Source` > `Build and deployment`, rather than  `Deploy from a branch`, choose `GitHub Actions` and `Static HTML` (otherwise you will find the JSON file does not get published).
 6. Make a Commit to publish your site.
 7. Confirm the JSON file is available in the browser.
 

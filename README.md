@@ -51,7 +51,7 @@ NB GitHub web page hosting is case-sensitive hence suggesting all lower case.
 
 ## How do you set your NIP-05 Identifier?
 
-Using a client such as [https://astral.ninja](https://astral.ninja), enter your NIP-05 identifier into your profile settings in the form of `ben@bengweeks.github.io`.
+Using a client such as [https://astral.ninja](https://astral.ninja) or  [https://metadata.nostr.com](https://metadata.nostr.com) (the latter requires the [Nos2x](https://github.com/fiatjaf/nos2x) browser extension), enter your NIP-05 identifier into your profile settings in the form of `ben@bengweeks.github.io`.
 
 **Note: Most clients and not using this yet and relays not implementing correctly yet it seems**
 

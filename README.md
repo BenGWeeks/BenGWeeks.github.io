@@ -10,7 +10,7 @@ This trust-minimized verification system is a decentralised way of combating bad
 
 ## How do NIP-05 Identifies work?
 
-A NIP-05 identifier, of the form `<local-part>@<domain>` is resolved submit a GET request to the following address:
+A NIP-05 identifier, of the form `<local-part>@<domain>` is an address that is resolved to a GET request to the following address:
 
 `https://<domain>/.well-known/nostr.json?name=<local-part>`
 
@@ -54,6 +54,10 @@ NB GitHub web page hosting is case-sensitive hence suggesting all lower case.
 Using a client such as [https://astral.ninja](https://astral.ninja) or  [https://metadata.nostr.com](https://metadata.nostr.com) (the latter requires the [Nos2x](https://github.com/fiatjaf/nos2x) browser extension), enter your NIP-05 identifier into your profile settings in the form of `ben@bengweeks.github.io`.
 
 **Note: Most clients and not using this yet.**
+
+## Notes
+
+Your host must have the Cross-Origin Resource Sharing (CORS) policy set correctly to work (such as with GitHub pages, although custom domains may not work). Specifically, the `Access-Control-Allow-Origin: *` header.
 
 ## References
 

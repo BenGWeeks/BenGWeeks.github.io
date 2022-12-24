@@ -57,7 +57,7 @@ Using a client such as [https://astral.ninja](https://astral.ninja) or  [https:/
 
 ## Cross-Origin Resource Sharing (CORS)
 
-Your host must have the Cross-Origin Resource Sharing (CORS) policy set correctly to work (such as with GitHub pages (although custom domains may not work). Specifically, the `Access-Control-Allow-Origin: *` header.
+Your host must have the Cross-Origin Resource Sharing (CORS) policy set correctly to work (such as with GitHub pages -valthough custom domains may not work). Specifically, the `Access-Control-Allow-Origin: *` header.
 
 ## References
 

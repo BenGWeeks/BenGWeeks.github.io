@@ -1,4 +1,4 @@
-# NIP-05 Identifier
+# Using GitHub Pages for NIP-05 Identifier
 
 ## What are NIP-05 Identifiers?
 

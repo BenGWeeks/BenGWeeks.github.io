@@ -28,7 +28,7 @@ Where the contents of the JSON file are as follows:
 }
 ```
 
-The string in the JSON file of `971615b70ad9ec896f8d5ba0f2d01652f1dfe5f9ced81ac9469ca7facefad68b` is my Nostr public key (PubKey) in HEX format.
+CAREFUL: The string in the JSON file of `971615b70ad9ec896f8d5ba0f2d01652f1dfe5f9ced81ac9469ca7facefad68b` is my Nostr public key (PubKey) in HEX format, as apposed to the [more standard] nPub format that starts with `nPub1`. You can convert your nPub key at [https://damus.io/key](https://damus.io/key).
 
 NB The querystring of `name=<local-part>` is there to be able to dynamically create the JSON file when used by a host for multiple users.
 

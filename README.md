@@ -53,7 +53,7 @@ NB GitHub web page hosting is case-sensitive hence suggesting all lower case.
 
 Using a client such as [https://astral.ninja](https://astral.ninja) or  [https://metadata.nostr.com](https://metadata.nostr.com) (the latter requires the [Nos2x](https://github.com/fiatjaf/nos2x) browser extension), enter your NIP-05 identifier into your profile settings in the form of `ben@bengweeks.github.io`.
 
-**Note: Most clients and not using this yet.**
+**Note: Most clients are not using this yet.**
 
 ## Cross-Origin Resource Sharing (CORS)
 
